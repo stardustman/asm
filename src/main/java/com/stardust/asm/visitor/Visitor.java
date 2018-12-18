@@ -12,6 +12,7 @@ package com.stardust.asm.visitor;
 
 //2. Create a "visitor" base class with a visit() method for every "element" type
 interface Visitor {
+	//定义所有实现Element接口的实现类
    public void visit( This e ); // second dispatch
    public void visit( That e );
    public void visit( TheOther e );

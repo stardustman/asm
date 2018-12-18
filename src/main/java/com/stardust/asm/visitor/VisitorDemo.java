@@ -4,6 +4,7 @@ class VisitorDemo {
 
    // 4. Client creates "visitor" objects and passes each to accept() calls
    public static void main( String[] args ) {
+	   //定义visitor去遍历Element
       UpVisitor    up   = new UpVisitor();
       DownVisitor  down = new DownVisitor();
       for (int i=0; i < list.length; i++) {
